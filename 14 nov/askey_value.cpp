@@ -8,7 +8,13 @@ int main()
   {
     // here we have done type casting 
     // means converting one datattype into another 
-    cout<<int(ch)<<endl;
+    cout<<ch<<"="<<int(ch)<<endl;
   }
-  
+     int A;
+  for (char ch ='A'; ch <='Z'; ++ch)
+  {
+    // here we have done type casting 
+    // means converting one datattype into another 
+    cout<<ch<<"="<<int(ch)<<endl;
+  }
 }
